@@ -1,0 +1,1205 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+    font-family: "Orbitron", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+
+.my-custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+
+
+
+.rightnav {
+    display: flex;
+    gap: 25px;
+}
+
+.my-custom-navbar h1 {
+    margin-top: 2.2rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.my-custom-navbar input {
+    height: fit-content;
+    margin-top: 2.2rem;
+    padding: 6px 15px;
+    background-color: transparent;
+    border: 0.5px grey solid;
+
+    
+
+}
+
+.my-custom-navbar img {
+    margin-right: 290px;
+    margin-left: 320px;
+    height: 70px;
+    margin-top: 0.6rem;
+}
+
+.leftnav {
+    display: flex;
+    
+    margin-right: 20px;
+}
+
+.my-custom-navbar select {
+    
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2.2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+
+}
+
+.my-custom-navbar option {
+    color: black;
+    text-align: center;
+}
+
+.my-custom-navbar h3 {
+    margin-top: 2.2rem;
+
+    font-size: 1.2rem;
+    white-space: nowrap;
+   
+    padding-right: 35px;
+}
+
+#Live {
+    border: 1px solid #f64137;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding: 1px 5px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+               /* NAVBAR CSS ENDS HERE */
+
+.introimg {
+    height: 620px;
+    position: relative;
+    
+}
+
+.backfade {
+    height: 100%;
+    width: 100%;
+     background: linear-gradient(90deg, rgba(2,0,36,0.8687850140056023) 12%, rgba(9,9,121,0) 51%, rgba(0,212,255,0) 100%);
+    position: absolute;
+    top: 0;  
+    
+}
+
+.introimg img {
+    height: 100%;
+    
+    width: 100%;
+}
+
+.intro-text {
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 650px;
+    
+}
+.intro-text h1 {
+    position: absolute;
+    top: 120px;
+    color: white;
+    font-size: 40pt;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    left: 30px;
+
+}
+.intro-text p {
+    position: absolute;
+    top: 230px;
+    font-size: 1.4rem;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro-text span {
+    position: absolute;
+    font-size: 10pt;
+    top: 375px;
+    left: 340px;
+    color: rgb(230, 230, 230);
+}
+
+#Stream {
+    padding: 10px 20px;
+    background-color: #f64137;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+    filter: drop-shadow(1px 1px 10px black);
+    position: absolute;
+    top: 360px;
+    left: 30px;
+
+
+}
+
+hr {
+    position: absolute;
+    top: 490px;
+    width: 99.9dvw;
+    border: 0.3px solid rgba(175, 175, 175, 0.521);
+    
+    }
+
+.bottomintro {
+    width: fit-content;
+    position: absolute;
+    top: 520px;
+    color: white;
+    line-height: 35px;
+padding-left: 30px;
+    /* background-color: #f00000; */
+}
+
+
+#arrow {
+    height: 15px;
+    width: 15px;
+    color: white;
+    background-color: #f00000;
+    transform: rotate(320deg);
+    border-radius: 50%;
+    
+
+    
+}
+
+.bottomintro2 {
+    width: fit-content;
+    position: absolute;
+    top: 520px;
+    color: white;
+    line-height: 25px;
+    padding-left: 30px;
+    line-height: 35px;
+
+    left: 300px;
+
+}
+
+.bottomintro3 {
+    width: fit-content;
+    position: absolute;
+    top: 520px;
+    color: white;
+    line-height: 25px;
+    line-height: 35px;
+
+    padding-left: 30px;
+    left: 600px;
+
+}
+
+
+
+.features {
+    height: 800px;
+    width: 99.9%;
+    /* background-color: #f00670; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content {
+    height: 90%;
+    width: 90%;
+    
+   /* background-color: aqua; */
+}
+
+
+.col1-row1 {
+    height: fit-content;
+    width: 93.7%;
+    display: flex;
+  
+    justify-content: space-between;
+    padding-top: 4rem;
+    gap: 560px;
+    
+   
+}
+.col1-row1 #h1, #h2 {
+    height: 100px;
+    padding-left: 90px;
+
+   
+    
+    width: fit-content;
+
+}
+
+.col1-row2 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
+    width: 100%;
+    gap: 5px;
+    position: relative;
+    
+
+    
+   
+
+}
+
+.col1-row2 img {
+    filter: brightness(70%);
+
+}
+
+.col1-row2 > img:nth-of-type(1) {
+    height: 370px;
+    padding-left: 90px;
+    filter: brightness(50%);
+    
+ 
+    
+}
+.col1-row2 > img:nth-of-type(2) {
+    height: 370px;
+    filter: brightness(50%);
+
+    
+
+}
+
+.inside img {
+    height: 183px;
+    width: 100%;
+    
+    
+}
+
+.row3 {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+   
+
+
+}
+
+.row3 img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.imgone, .imgtwo, .imgthree, .imgfour {
+    display: flex;
+    font-size: small;
+    
+    
+
+}
+
+#imgonetext {
+    position: absolute;
+    height: 1px;
+    font-weight: 900;
+    width: 400px;
+    top: 320px;
+    left: 100px;
+    color: white;
+   
+    
+   
+    
+    text-align: start;
+    text-wrap: nowrap;
+    font-size: small;
+    
+}
+
+#imgonetexttwo {
+    position: absolute;
+    height: 1px;
+    font-weight: 900;
+    width: 250px;
+    top: 220px;
+    line-height: 25px;
+    left: 665px;
+    color: white;
+ 
+    
+    text-align: start;
+    padding-right: 0;
+    
+    font-size: small;
+    
+}
+
+
+
+
+
+
+#imgonetext h4 {
+    width: fit-content;
+    padding-left: 0;
+    font-weight: 900;
+    
+    filter: drop-shadow(1px 1px 3px black);
+
+}
+
+#imgonetext h2 {
+    width: fit-content;
+    padding-left: 0;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+#imgonetextthree {
+    position: absolute;
+    height: 1px;
+    font-weight: 900;
+    width: 250px;
+    top: 240px;
+    line-height: 25px;
+    left: 920px;
+    color: white;
+    z-index: 5;
+   
+    
+    text-align: start;
+    padding-right: 0;
+    
+    font-size: small;
+}
+
+#imgonetextfour {
+    position: absolute;
+    height: 1px;
+    font-weight: 900;
+    width: 250px;
+    top: 45px;
+    line-height: 25px;
+    left: 920px;
+    color: white;
+    z-index: 5;
+   
+    
+    text-align: start;
+    padding-right: 0;
+    
+    font-size: small;
+}
+
+
+
+/* <!-- 2ND FEATURE PAGES GOES HERE  --> */
+.secondfeature {
+    position: relative;
+    height: 820px;
+    width: 100%;
+    
+   
+}
+
+
+
+.secondfeature img {
+    height: 800px;
+    width: 100%;
+    transform: scaleX(-1)
+   
+
+    
+    
+}
+
+.backfade2 {
+    position: absolute;
+    background-color: black;
+    height: 800px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,9,121,0) 49%, rgba(0,212,255,0) 100%);
+}
+
+.textonimg  {
+    position: absolute;
+    top: 0;
+ 
+   
+}
+
+.textonimg h1 {
+     position: absolute;
+     top: 250px;
+     left: 170px;
+     z-index: 6;
+     font-size: 5.5rem;
+     color: transparent;
+     background-clip: text;
+     background: rgb(1,81,159);
+     background: linear-gradient(90deg, rgba(1,81,159,1) 39%, rgba(0,255,244,1) 90%);
+     -webkit-background-clip: text;
+     -webkit-text-stroke-color: black;
+     -webkit-text-stroke-width: 3px;
+
+}
+
+.textonimg p {
+    position: absolute;
+    width: 600px;
+    top: 600px;
+    left: 170px;
+    font-size: 1.2rem;
+    
+     z-index: 6;
+    color: white;
+}
+
+.learnmore {
+    width: 30px;
+    color: white;
+   
+    position: absolute;
+    top: 0;
+    
+    text-wrap: wrap;
+    line-height: 20px;
+    padding-left: 30px;
+    
+}
+
+.learnmore text {
+    top: 730px;
+    font-size: 1.4rem;
+    position: absolute;
+    text-wrap: nowrap;
+    left: 170px;
+}
+
+.thirdfeature {
+height: 600px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.insidetab {
+    height: 90%;
+    width: 80%;
+  
+}
+
+.row1 {
+    display: flex;
+     justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+  
+    padding: 20px 50px 0px 0px;
+    font-size: 1.5rem;
+    position: relative;
+
+}
+
+.discover {
+    padding: 20px 50px 0px 0px;
+    font-size: 1.1rem;
+    
+}
+
+.row2  {
+
+margin-top: 25px;
+height: 430px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.img1 {
+height: 430px;
+
+justify-content: space-between;
+
+margin: 0px;
+filter: brightness(100%);
+
+
+
+}
+.img1 img {
+    height: 100%;
+    width: 310px;
+    
+
+}
+
+#arrow3 {
+    height: 19px;
+    width: 19px;
+    color: white;
+    background-color: #f00000;
+    
+    margin-left: 5px;
+    transform: rotate(330deg);
+    border-radius: 50%;
+}
+
+.earth {
+    color: white;
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.earthtwo {
+    color: white;
+    font-size: 20pt;
+
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+
+    left: 40px;
+}
+
+.earththree {
+    color: white;
+    font-size: 20pt;
+
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+
+    left: 60px;
+}
+
+.earthfour {
+    color: white;
+    font-size: 20pt;
+
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+
+    left: 80px;
+}
+
+
+.fourthfeature {
+    height: 800px;
+    background-color: green;
+    position: relative;
+    
+
+
+}
+
+.fadeearth {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    z-index: 1;
+}
+
+.mainimg {
+    height: 100%;
+    background: url(https://images7.alphacoders.com/994/thumb-1920-994603.jpg);
+   
+    
+    
+}
+
+.textonimg2 {
+    height: fit-content;
+    color: white;
+    z-index: 2;
+
+   
+}
+
+.textonimg3 {
+    
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    color: white;
+    font-size: 15pt;
+    z-index: 2;
+
+    
+}
+
+#Exploring {
+    margin-top: 40px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15pt;
+    
+    position: relative;
+    background: linear-gradient(25deg, rgb(0, 174, 255), rgb(243, 3, 35))
+}
+
+.fifthcontent {
+
+    height: 600px;
+   
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+
+}
+
+.leftcontent {
+    height: 80%;
+    width: 30%;
+    margin-left: 150px;
+    /* background-color: gold; */
+    
+    
+}
+
+
+
+.leftcontent h1, h6  {
+padding-bottom: 25px;
+
+
+}
+.leftcontent h3 {
+padding-bottom: 40px;
+
+
+}
+.leftcontent p {
+padding-bottom: 15px;
+line-height: 1.9;
+
+
+}
+.leftcontent button {
+    margin-top: 10px;
+padding: 10px 20px;
+font-size: 13pt;
+font-weight: 700;
+border-radius: 10px;
+border: none;
+background: linear-gradient(25deg, rgba(0, 183, 255, 0.671), rgba(16, 0, 243, 0.616))
+
+
+}
+
+
+
+
+
+.rightcontent {
+    height: 75%;
+    width: 50%;
+    background-color: rgb(238, 20, 20);
+    background: url(https://images6.alphacoders.com/725/thumb-1920-725422.jpg);
+    background-size: cover;
+   
+    
+}
+
+.sixthcontent {
+    height: 450px;
+    width: 100%;
+    position: relative;
+   
+}
+
+
+
+
+.images {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 50px;
+    gap: 10px;
+  
+}
+
+.threedivs {
+    height: 250px;
+    width: 450px;
+    display: flex;
+    gap: 5px;
+   
+}
+
+
+
+
+
+.threedivs img {
+    height: 100px;
+    width: 100%;
+
+
+}
+
+.div1 img {
+    height: 100%;
+    width: 300px;
+}
+
+
+.words {
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    
+    
+  
+   
+}
+
+
+.words2 {
+    position: absolute;
+    top: 380px;
+    left: 610px;
+    
+  
+   
+}
+
+.words3  {
+    position: absolute;
+    top: 380px;
+    left: 1070px;
+    
+  
+   
+}
+
+.div2 img {
+    height: 49%;
+    width: 150px;
+}
+
+.seventh {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    padding-top: 80px;
+    background-color: #c4c4c44f;
+}
+.rightcontent2 {
+    
+    height: 90%;
+    width: 56%;
+    
+   
+    background-size: contain;
+}
+
+.rightcontent2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.eighth {
+height: 600px;
+width: 100%;
+}
+
+.bgimg {
+    height: 500px;
+    width: 100%;
+    background: url(https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199);
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.text {
+
+height: 250px;
+width: 600px;
+padding-top: 130px;
+padding-left: 150px;
+color: white;
+
+}
+
+.text h1 {
+    height: 150px;
+    width: 300px;
+    text-wrap: wrap;
+}
+
+.text button {
+    margin-top: 35px;
+    padding: 10px 20px;
+    font-size: 13pt;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(25deg, rgba(245, 140, 4, 0.747), rgba(114, 15, 8, 0.616))
+}
+
+
+.ninth {
+    height: 1000px;
+    width: 100%;
+   
+
+
+}
+
+.headingninth {
+    padding-top: 10px;
+    padding-left:150px;
+    font-size: 16pt;
+}
+
+.imagesnine {
+    display: flex;
+    padding-left: 150px;
+    
+    margin-top: 20px;
+   
+    
+   
+    
+}
+
+.imagines {
+    margin-top: 60px;
+}
+
+.imagesnine img {
+    height: 450px;
+    width: 300px;
+    
+    
+
+}
+
+.nine-img-one {
+    height: 420px;
+    width: 300px;
+    
+    background: url(https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?w=1024);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+}
+
+.nine-img-two {
+
+    height: 420px;
+    filter: brightness(100%);
+    margin-left: 15px;
+    
+    width: 300px;
+    
+    background: url(https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg?w=368);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+ .nine-img-three{
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    margin-left: 15px;
+    
+    background: url(https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+ }
+
+ .nine-img-four {
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    margin-left: 15px;
+
+    background: url(https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+ }
+ .nine-img-five {
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    
+
+    background: url(https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+ }
+ .nine-img-six {
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    margin-left: 15px;
+
+    background: url(https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+ }
+ .nine-img-seven {
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    margin-left: 15px;
+
+    background: url(https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg?w=610);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+ }
+ .nine-img-eight {
+    height: 420px;
+    width: 300px;
+    filter: brightness(100%);
+    margin-left: 15px;
+
+    background: url(https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png?w=1017);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .nine-img-one h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+.nine-img-two h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    
+}
+
+.nine-img-three h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    
+}
+
+.nine-img-four h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    
+}
+ 
+.nine-img-five h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+.nine-img-six h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+.nine-img-seven h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+.nine-img-eight h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 5px black);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
